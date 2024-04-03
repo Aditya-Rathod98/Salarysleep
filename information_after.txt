@@ -1,0 +1,38 @@
+IF PROGRAM NOT WORK THE USE THIS
+
+1) create database user
+
+create database user;
+
+
+2) use user database
+
+use database user;
+
+
+3)create table
+
+CREATE TABLE user (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    password VARCHAR(50) NOT NULL
+);
+
+
+4)add username and password as your want, for ex:
+
+INSERT INTO user (id, username, password) VALUES (1, 'admin', '1234');
+
+
+5)check
+SELECT * FROM user;
+
++----+----------+----------+
+| id | username | password |
++----+----------+----------+
+| 1  | admin    | 1234     |
++----+----------+----------+
+
+
+
+
